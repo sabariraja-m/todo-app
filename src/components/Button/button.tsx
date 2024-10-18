@@ -1,12 +1,9 @@
 "use client"
-
-import { ReactNode } from "react"
-
 interface ButtonProps {
     onClick?: () => void,
-    primary?: Boolean,
-    label?: String,
-    size?: String,
+    primary?: boolean,
+    label?: string,
+    size?: string,
 }
 export const Button = (props: ButtonProps) => {
     const { onClick, label } = props
